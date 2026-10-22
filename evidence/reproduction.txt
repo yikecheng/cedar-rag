@@ -1,0 +1,2 @@
+Offline rerun reproduced all four raw comparison rows exactly, including saved full-precision scores.
+Document/query vector arithmetic independently passed the six tests in verification.txt.

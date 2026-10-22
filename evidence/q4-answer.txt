@@ -1,0 +1,1 @@
+The laser wavelength cannot be determined: neither supplied passage provides a wavelength value or units. [T1][A2] Claim check: The wavelength is missing from the supplied evidence — [T1][A2].

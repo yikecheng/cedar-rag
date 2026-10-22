@@ -1,0 +1,21 @@
+Actual setup notes, 2026-10-22
+
+Python 3.10.6 was already installed. A project-local .venv was created. The first
+package install could not resolve the package registry inside the network
+sandbox. An approved network-enabled install downloaded sentence-transformers
+and numpy with their dependencies; no replacement scores or fake vectors were used.
+
+The public all-MiniLM-L6-v2 model then downloaded and loaded on CPU. The first
+experiment stopped while printing optional revision metadata:
+AttributeError: 'BertConfig' object has no attribute '_commit_hash'
+
+Cause: the installed Transformers version does not expose that private attribute.
+Smallest correction: read the actual downloaded revision from the model cache,
+pin that revision explicitly in the model loader, and print the pinned public
+revision value instead. The six documents and retrieval rules were preserved.
+The same questions were rerun successfully, then reproduced offline.
+
+The system git wrapper had an architecture problem in Apple's developer tools.
+The Codex bundled git executable worked (version 2.53.0), so no system software
+or developer-tool settings were changed. The local project was initialized as
+a Git repository with main as its initial branch.

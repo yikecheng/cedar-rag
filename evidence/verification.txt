@@ -1,0 +1,11 @@
+test_exact_token_policy (test_retrieval.RetrievalContract) ... ok
+test_no_repeat_bonus_or_metadata_matching (test_retrieval.RetrievalContract) ... ok
+test_q1_scores_and_ties (test_retrieval.RetrievalContract) ... ok
+test_saved_vectors_and_csv (test_retrieval.RetrievalContract) ... ok
+test_verbatim_sources_and_metadata (test_retrieval.RetrievalContract) ... ok
+test_zero_matches_and_k (test_retrieval.RetrievalContract) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.038s
+
+OK
