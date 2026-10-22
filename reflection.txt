@@ -1,0 +1,5 @@
+Reflecting on the process, building this workflow helped me separate retrieving relevant text from establishing that an answer is supported. Each question became a normalized vector in the same 384-dimensional space as the six passages. Similarity ranked the passages; then the selected evidence guided a cited answer.
+
+The most useful result was a failure. For Q1, embeddings retrieved the operating rule and training requirement but missed the access-hours rule. Keyword matching recovered both required passages. Increasing k to three still did not close that gap. Semantic similarity and context do not guarantee complete evidence. Q4 reinforced the distinction: positive scores did not justify inventing a wavelength.
+
+Next, I would test hybrid retrieval that combines keyword and embedding candidates, measuring required evidence coverage before generating answers. I would also keep the claim audit, because the revised Q1 answer improved only after the missing time condition was made explicit in the instruction.

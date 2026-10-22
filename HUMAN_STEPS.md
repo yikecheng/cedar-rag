@@ -1,25 +1,23 @@
-# Steps that require the student
+# Final submission checklist
 
-The technical work and assisted audits are prepared. A full score cannot be
-promised before these explicit assignment requirements are completed.
+The implementation, actual CPU evidence, retrieval comparisons, k experiment,
+fresh-chat answers, claim audits, and 150-word reflection are included.
 
-1. Review `results.csv` and `evidence/retrieval-audit.md`. Check the distinct-word
-   calculation and compare the selected passages with the required IDs. Confirm
-   or correct the assisted judgments yourself. They are not labeled as your
-   personal decisions.
-2. Review the completed Task 4 fresh-chat answers and the separate
-   `evidence/q1-answer-audit.md` and `evidence/q4-answer-audit.md`. Confirm or
-   correct each claim judgment yourself. Q1 has an original failed instruction
-   check and one revised attempt, both preserved; Q4 needed no revision.
-3. Write your own individual reflection in `reflection.txt`, **150 words or
-   fewer**. The handout explicitly says: “Do not ask Codex to write your personal
-   explanation.” No first-person reflection has been drafted for you. Address:
-   how a question becomes a cited answer; one limitation you observed in these
-   runs; and one change you would test next. If working with a partner, each
-   person writes their own reflection and both names must be recorded.
-4. Confirm the student name and individual/partner status in the README.
-5. After the review and reflection, commit and push the updates. Submit your
-   repository link in the course sign-up sheet linked in the assignment:
-   https://docs.google.com/spreadsheets/d/1ZewIG5udWWpk3Kdrab5yDbsWDV4gnH3liKobIAp7HG4/edit
+The reflection incorporates the student's supplied revision of an earlier Codex
+draft, with light grammar edits and trimming. The README discloses that process.
+The handout asks for the student's own explanation, so final personal review
+remains important.
 
-This checklist is not a substitute for the reflection. Do not submit it as one.
+Before submitting, review `reflection.txt`, `results.csv`, and the assisted
+audits in `evidence/`. The authorship labels distinguish Codex's checks from a
+claim that the student personally performed every audit. The reflection's Q1
+and Q4 observations agree with the actual run evidence.
+
+Submit this repository link to the course sign-up sheet:
+https://github.com/yikecheng/cedar-rag
+
+Course sign-up sheet:
+https://docs.google.com/spreadsheets/d/1ZewIG5udWWpk3Kdrab5yDbsWDV4gnH3liKobIAp7HG4/edit
+
+The repository is prepared for final review and submission. Publishing the
+repository does not itself enter the link in the sign-up sheet.

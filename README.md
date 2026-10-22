@@ -1,8 +1,7 @@
 # Cedar Lab: visible retrieval and evidence limits
 
-Prepared for **Yike Cheng**, with Codex assistance. No partner was specified;
-individual-work status should be confirmed before submission. Cedar Lab is
-fictional and these passages are classroom material.
+Student: **Yike Cheng**, working individually with Codex assistance. Cedar Lab
+is fictional and these passages are classroom material.
 
 This project follows [PS05 and Lesson 10 — RAG Systems](https://docs.google.com/document/d/1EIb-8b-DZx9Ir_Yk3yfA1D6gAtMta1vtQMmclskoXPg/edit).
 It compares exact word overlap with a real pretrained embedding model on the
@@ -103,8 +102,8 @@ scales should not be compared numerically.
 
 See `evidence/retrieval-audit.md` for the manual score count, vector explanation,
 actual score examples, coverage judgments, and interpretation of the k experiment.
-`results.csv` contains explicitly labeled **Codex-assisted judgments awaiting
-student review**. `evidence/results-unjudged.csv` preserves the original blank
+`results.csv` contains explicitly labeled **Codex-assisted evidence judgments**.
+`evidence/results-unjudged.csv` preserves the original blank
 judgment fields required by prompt 3.
 
 ## Evidence and Task 4 status
@@ -119,7 +118,7 @@ judgment fields required by prompt 3.
 | Environment | `evidence/environment.txt`, `requirements-lock.txt`, `evidence/run-metadata.json` |
 | Automated verification | `evidence/verification.txt`; six contract and arithmetic tests passed |
 | Fresh answer chats | Both completed; originals, one Q1 retry, separate audits, and `evidence/answer-provenance.json` preserved |
-| Individual reflection | Must be written by the student, at most 150 words; pending |
+| Individual reflection | `reflection.txt`; 150 words, incorporating the student's supplied revision |
 
 Each initial prompt contains only the handout's instruction, its question, and
 the actual k=2 embedding passages. The user authorized two separate fresh
@@ -132,13 +131,18 @@ a follow-up in the same Q1 chat. Its actual response in
 Q4 correctly reported that wavelength is unspecified and needed no revision.
 See `evidence/q1-answer-audit.md` and `evidence/q4-answer-audit.md` for claim
 checks, and `evidence/answer-provenance.json` for chat and turn IDs. These are
-assisted audits, awaiting student review.
+assisted audits; their authorship remains labeled for the student's final review.
 
-The substantive human requirements and final submission steps are in
-`HUMAN_STEPS.md`. The technical artifacts address visible embeddings (3 points),
-retrieval comparison (3), grounded answers (2), and reproducible instructions
-(part of the remaining 2). A full 10/10 cannot be claimed before the student's
-own audit review and individual reflection are complete.
+The final review and submission steps are in `HUMAN_STEPS.md`. The repository
+contains artifacts addressing all four rubric categories: visible embeddings
+(3 points), retrieval comparison (3), grounded answers (2), and reproducibility
+and explanation (2). Scoring remains the instructor's judgment.
+
+The reflection began as a Codex draft. The student revised it and supplied the
+version used for `reflection.txt`; Codex then made light grammar edits and
+trimmed it to 150 words. This assistance is disclosed rather than represented
+as unaided writing. The handout requests the student's own personal explanation,
+so the student should ensure the final wording reflects their understanding.
 
 ## Originality and references
 
