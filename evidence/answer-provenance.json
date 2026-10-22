@@ -1,0 +1,25 @@
+{
+  "generation_date": "2026-10-22",
+  "generator": "Codex in two separate fresh projectless chats, using the user's configured default model",
+  "authorization": "User explicitly authorized creating the two fresh answer chats",
+  "initial_context": "Each initial prompt contained only the assignment answer instruction, one question, and its actual top-2 embedding passages",
+  "project_attached": false,
+  "corpus_attached": false,
+  "observed_tool_calls": 0,
+  "model_identifier": "Not exposed by chat creation or completion; not inferred",
+  "Q1": {
+    "thread_id": "01a1649d-b15f-7062-945f-858a295c70cf",
+    "original_turn_id": "01a1649d-b1fa-7813-bd43-c3820473abd6",
+    "revised_turn_id": "01a1649e-68da-7de3-a9b3-a9d43b8aeec6",
+    "selected_ids": ["A2", "T1"],
+    "retries": 1,
+    "retry_context": "Same Q1 chat, original answer visible; same question and passages; revised instruction saved"
+  },
+  "Q4": {
+    "thread_id": "01a1649d-b825-7501-989b-cb15deacbbde",
+    "original_turn_id": "01a1649d-b8b5-7292-99c5-826f87f25305",
+    "selected_ids": ["T1", "A2"],
+    "retries": 0
+  },
+  "auditor": "Main Codex chat has the full corpus for checking; student approval not claimed"
+}
